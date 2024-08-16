@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#account">Account</a></li>
+                <li><a href="#info">Info</a></li>
+                <li><a href="#about-us">About Us</a></li>
+                <li><a href="#contact-us">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="form-section">
+            <h2>Add Student</h2>
+            <form id="studentForm">
+                <div class="form-group">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="form-group">
+                    <label for="age">Age:</label>
+                    <input type="number" id="age" name="age" required>
+                </div>
+                <div class="form-group">
+                    <label for="gender">Gender:</label>
+                    <select id="gender" name="gender" required>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="favLanguage">Favorite Programming Language:</label>
+                    <select id="favLanguage" name="favLanguage" required>
+                        <option value="javascript">JavaScript</option>
+                        <option value="python">Python</option>
+                        <option value="java">Java</option>
+                        <option value="kotlin">Kotlin</option>
+                        <option value="csharp">C#</option>
+                        <option value="ruby">Ruby</option>
+                        <option value="go">Go</option>
+                    </select>
+                </div>
+                <button type="submit" id="submitButton">Submit</button>
+                <div id="loadingIndicator" style="display: none;">Loading...</div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 My Website. All Rights Reserved.</p>
+            <ul class="footer-links">
+                <li><a href="#privacy-policy">Privacy Policy</a></li>
+                <li><a href="#terms-of-service">Terms of Service</a></li>
+                <li><a href="#contact-us">Contact Us</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
