@@ -1,6 +1,0 @@
-com/example/demo/config/WebConfig.class
-com/example/demo/DemoApplication.class
-com/example/demo/user/UserController.class
-com/example/demo/user/User$UserBuilder.class
-com/example/demo/user/UserRepo.class
-com/example/demo/user/User.class
