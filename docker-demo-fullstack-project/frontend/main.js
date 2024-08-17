@@ -1,5 +1,5 @@
 var idCounter = 3;
-const ipAddress = "http://13.60.166.183:8080/api"
+const ipAddress = "http://13.60.166.183/api"
 
 document.getElementById('studentForm').addEventListener('submit', async function(event) {
     event.preventDefault(); // Prevent the default form submission
