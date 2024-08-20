@@ -16,6 +16,7 @@ services:
     build:
       context: ./backend
     container_name: backend
+    image: youssefa111/first-docker-app-backend
     ports:
       - "8080:8080"
     environment:
@@ -31,6 +32,7 @@ services:
     build:
       context: ./frontend
     container_name: frontend
+    image: youssefa111/first-docker-app
     networks:
       - app-network
 
